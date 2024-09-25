@@ -1,0 +1,91 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 10px;
+  }
+  .carousel-inner {
+    padding: 3%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e72209;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-center1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .imagen-cartas{
+    display: flex;
+    width: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .icono{
+    width: 5%;
+    height: 5%;
+}
+.derecha{
+  display: flex;
+  justify-content: end;
+}
+  #comida{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #suplementos{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #accesorios{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #fondo{
+    width: 100%;
+    height: 700px;
+    background-image: url(/images/pexels-shvetsa-4586629.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  #fondo, h1{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+  }
+  #opacidad{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
